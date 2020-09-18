@@ -1,0 +1,412 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #3E3C3C;
+}
+
+.second-part {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #1C1A19;
+    .rectangle1 {
+        position: absolute;
+        height: 20%;
+        width: 15%;
+        left: 81%;
+        right: 48.76%;
+        top: 38.25%;
+        bottom: 47.31%;
+        background: #FFFFFF;
+        border: 1.22338px solid #262626;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small2 {
+        position: absolute;
+        left: 93.13%;
+        right: -9.07%;
+        height: 30px;
+        width: 30px;
+        top: 5.2%;
+        bottom: 63.85%;
+        background: #FFFFFF;
+        border: 1.22338px solid #262626;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small3 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 95.13%;
+        right: -9.97%;
+        top: 3.2%;
+        bottom: 63.85%;
+        background: #262626;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small4 {
+        position: absolute;
+        left: 93.13%;
+        right: -9.07%;
+        height: 30px;
+        width: 30px;
+        top: 12.2%;
+        bottom: 63.85%;
+        background: #FFFFFF;
+        border: 1.22338px solid #262626;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small5 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 95.13%;
+        right: -9.97%;
+        top: 10.2%;
+        bottom: 63.85%;
+        background: #262626;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small6 {
+        position: absolute;
+        left: 93.13%;
+        right: -10.07%;
+        height: 30px;
+        width: 30px;
+        top: 19.2%;
+        bottom: 63.85%;
+        background: #FFFFFF;
+        border: 1.22338px solid #262626;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small7 {
+        position: absolute;
+        left: 90.82%;
+        right: 30.94%;
+        height: 5%;
+        width: 5%;
+        top: 27.32%;
+        bottom: 59.14%;
+        background: #FF6B00;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small8 {
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 87.82%;
+        right: 30.94%;
+        top: 19.32%;
+        bottom: 59.14%;
+        background: #FF6B00;
+        transform: matrix(-0.96, 0.99, 0.8, 0.99, 0, 0);
+    }
+    .small9 {
+        position: absolute;
+        left: 57.58%;
+        right: 35.52%;
+        top: 41.69%;
+        bottom: 49.32%;
+        background: #FFFFFF;
+        border: 1.22338px solid #FF6B00;
+        transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+    }
+    .small10 {
+        position: absolute;
+        left: 70.57%;
+        right: 20.52%;
+        top: 60.59%;
+        bottom: 9.36%;
+        background: #FFFFFF;
+        border: 1.22338px solid #FF6B00;
+        transform: matrix(0.96, 0.27, 0.9, 0.96, 0.3, 0.2);
+    }
+    .name {
+        font-family: Crete Round;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #F55800;
+    }
+    .para1 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 2rem;
+        line-height: 2rem;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .para {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: #F4F5F7;
+    }
+    .para2 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: #F4F5F7;
+    }
+    .about1 {
+        position: absolute;
+        height: 50px;
+        left: 80.24%;
+        right: 9.99%;
+        top: 7.05%;
+        bottom: 80.37%;
+        background: #FFFFFF;
+        border: 0.787818px solid #262626;
+        transform: matrix(-1, 0.2, 0, 1, 0, 0);
+    }
+    .about2 {
+        position: absolute;
+        height: 50px;
+        left: 80.24%;
+        right: 9.99%;
+        top: 20.05%;
+        bottom: 80.37%;
+        background: #FFFFFF;
+        border: 0.787818px solid #262626;
+        transform: matrix(-1, 0.2, 0, 1, 0, 0);
+    }
+    .about3 {
+        position: absolute;
+        height: 50px;
+        left: 80.24%;
+        right: 9.99%;
+        top: 40.05%;
+        bottom: 80.37%;
+        background: #FFFFFF;
+        border: 0.787818px solid #262626;
+        transform: matrix(-1, 0.2, 0, 1, 0, 0);
+    }
+}
+
+.about-b {
+    position: static;
+    width: 161px;
+    height: 48px;
+    left: 0px;
+    top: 404px;
+    background: #F55800;
+    padding: 12px;
+    p {
+        width: 137px;
+        height: 24px;
+        left: 12px;
+        top: 12px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+}
+
+.language {
+    width: 228px;
+    height: 24px;
+    left: 49.46px;
+    top: 8.73px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.text {
+    height: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.hr1 {
+    position: absolute;
+    height: 0px;
+    left: 50px;
+    right: 50px;
+    border: 1px solid #FFFFFF;
+}
+
+.hr2 {
+    position: absolute;
+    height: 0px;
+    left: 10px;
+    right: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.portfolio {
+    position: relative;
+}
+
+.recent {
+    position: static;
+    width: 315px;
+    height: 52px;
+    right: 10px;
+    top: 20px;
+    font-family: Crete Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+}
+
+.project1 {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0.1%;
+    bottom: 50%;
+    height: 22rem;
+    width: 38.1rem;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #262626;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 15%;
+    bottom: 50%;
+    height: 23.5rem;
+    width: 38.7rem;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #262626;
+}
+
+.container1:hover .overlay {
+    opacity: 1;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+}
+
+.port-b {
+    color: white !important;
+    background: #666666;
+    height: 2rem;
+    width: 6rem;
+}
+
+.mobile-container {
+    max-width: 767px;
+    margin: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.contact-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #262626;
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav2 {
+        display: none !important;
+    }
+    .shapes {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
